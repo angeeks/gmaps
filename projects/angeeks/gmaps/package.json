@@ -1,0 +1,27 @@
+{
+  "name": "@angeeks/gmaps",
+  "version": "0.0.1",
+  "description": "Google Maps API + Angular",
+  "license": "MIT",
+  "keywords": [
+    "angeeks",
+    "angular",
+    "googlemaps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeeks/gmaps.git"
+  },
+  "homepage": "https://angeeks.github.io/gmaps",
+  "bugs": {
+    "url": "https://github.com/angeeks/gmaps/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "google-maps": "^3.3.0",
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0"
+  }
+}

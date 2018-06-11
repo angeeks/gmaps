@@ -8,6 +8,8 @@ install:
   - npm i
 script:
   - npx ng lint
+  - npx ng test @angeeks/gmaps --watch=false
+  - npx ng build @angeeks/gmaps --prod
   - npx ng test gmaps --watch=false
   - npx ng build gmaps --prod --base-href gmaps
 cache:
