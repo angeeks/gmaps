@@ -1,6 +1,17 @@
 :host {
+  .wrap {
+    display: flex;
+  }
   ngk-gmaps {
-    width: 400px;
-    height: 400px;
+    flex: 1 0;
+  }
+  ngk-md {
+    padding: 20px;
+    flex: 1 0;
+    /deep/ pre {
+      background: #eee;
+      padding: 20px;
+      border-radius: 2px;
+    }
   }
 }

@@ -1,4 +1,4 @@
-# Gmaps
+# @angeeks/gmaps
 
 [![Build Status](https://travis-ci.org/angeeks/gmaps.svg?branch=master)](https://travis-ci.org/angeeks/gmaps)
 [![npm version](https://badge.fury.io/js/%40angeeks%2Fgmaps.svg)](https://www.npmjs.com/package/@angeeks/gmaps)
